@@ -1,0 +1,123 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+	background : url("../images/notebook.png");
+	font-family : "Lato", sans-serif;
+	font-size : 100%;
+	font-weight : bold;
+}
+
+#container {
+	/* padding : 20px 350px 20px 350px; */
+	width : 1100px;
+	margin : 20px auto;
+}
+
+
+#mainTitle {
+	margin : 0;
+	font-size : 30pt;
+}
+#subHeading {
+	margin : 0 0 16px 0;
+	
+}
+
+#main {
+	background : white;
+	width : 700px;
+	float : left;
+	padding : 10px 15px 40px 15px;
+	margin: 0px 0px 10px 0px;
+}
+#sidebar {
+	background : white;
+	width : 350px;
+	float: left;
+	margin : 0 0 0 10px;
+	padding : 20px;
+}
+
+#footer {
+	margin : 20px 0 0 0;
+	clear : both;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+quotes {
+	color : #9B9CA0;
+	font-weight : 600;
+	margin : 10px 0 100px 0;
+	display : block;
+	
+}
+
+h2 {
+	font-size : 25pt;
+}
+
+/*----------------------------------------------------------------------------- 
+03=Sidebar  
+-----------------------------------------------------------------------------*/
+
+blockquote {
+	border-left : 10px solid #BBBBBB;
+	margin : 0px;
+	padding: 0 0 0px 10px;
+	margin-bottom : 50px;
+	font-style : italic;
+}
+
+.circular-image {
+	border-radius : 50%;
+}
+
+h3 {
+	margin-top : 60px;
+}
+
+.setLineHeight{
+	line-height : 2.0;
+}
+
+a {
+	color : #ED745A;
+	text-decoration : none;
+	font-weight : 600;
+}
+
+li {
+	margin : 10px;
+}
